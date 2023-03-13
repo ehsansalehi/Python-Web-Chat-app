@@ -1,0 +1,93 @@
+/* Chat window styling */
+
+body {
+    background-image: url("https://uparat.ir/up/171533.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70vh;
+    width: 80vw;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+  }
+  
+  .message-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .message-card.sent {
+    background-color: red;
+    color: white;
+  }
+  
+  .message-card h3 {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .message-card p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  /* Input field styling */
+  
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+  }
+  
+  .input-container button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .input-container button:hover {
+    background-color: #c90000;
+  }
+  
