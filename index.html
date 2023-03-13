@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h1 class="text-center">COME HERE</h1>
+                    </div>
+                    <div class="card-body">
+                        <form method="POST" action="/">
+                            <div class="form-group">
+                                <label for="name">عااااااااا یه اسم بزن:</label>
+                                <input type="text" name="name" id="name" class="form-control" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">استارت چت</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
